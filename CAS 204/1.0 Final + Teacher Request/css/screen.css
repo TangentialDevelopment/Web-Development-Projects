@@ -1,0 +1,209 @@
+ /* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+@import "compass/css3";
+.cusimg
+{
+	border: 0px;
+	margin: 0;
+	width: 40%;
+	height: auto;
+}
+.header
+{
+	display: center;
+	justify-content: center;
+}
+.content
+{
+	margin: auto;
+	background-color: #E3E5A2;
+	display: center;
+	justify-content: center;
+	float: center;
+}
+.footer
+{
+	float: center;
+	margin-left: 10px;	
+	padding: 10px;
+	margin-bottom: -5px;
+	font-size: small;
+	justify-content: flex-end;
+	background-color: green;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0; 
+  
+  background: deepskyblue;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+}
+
+.navigation a 
+{
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.navigation a:hover 
+{
+  background: darken(deepskyblue, 2%);
+}
+
+@media all and (max-width: 800px) 
+{
+  .navigation 
+  {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) 
+{
+  .navigation 
+  {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+h1 
+{
+	border: 2px solid red;
+	border-radius: 5px;
+	background: radial-gradient(circle, red, yellow);
+	background-color:#99ccff;
+	display:inline-block;
+}
+#title
+{
+	border: 2px solid red;
+	border-radius: 5px;
+	background: radial-gradient(circle, red, pink);
+	background-color:#99ccff;
+	display:inline-block;
+}
+h2
+{
+	margin: 2cm 4cm 0cm 4cm;
+	border-bottom: 6px solid red;
+	background-color: lightgrey;
+	display:inline-block;
+}
+img
+{
+	padding:1px;
+	border:1px solid #021a40;
+	background-color:#ffo;
+}
+h3
+{
+    margin: 0cm 4cm 0cm 1cm;
+	color: #1EC239;
+}
+ul.a 
+{
+	text-align: center;
+	border:3px dashed #021a40;
+	font-family: Georgia,"Trebuchet MS",Arial,sans-serif;	
+}
+ul.b
+{
+	border-left: 6px solid red;
+    padding: 5px;
+    margin-left: 35px;
+	font-family: Arial,Georgia,"Trebuchet MS",sans-serif;
+}
+li.a 
+{
+    display: inline;
+}
+ol
+{
+	font-family: "Trebuchet MS",Arial,Georgia,sans-serif;
+}
+a:link
+{
+	background-color: tan;
+	color: blue;
+	padding: 2px 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: bold;
+}
+a:visited
+{
+	color: blue;
+	padding: 2px 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-weight: lighter;
+}
+a:hover, a:active
+{
+	background-color: hotpink;
+	color: purple;
+	padding: 2px 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+html
+{
+	background: #AB9643;
+	padding: 2%;
+}
+body
+{
+	background: url("../images/wrinkled-1143264.gif") no-repeat center center;
+	background-size: 100%;
+	padding: 20px;
+}
+p
+{
+	margin: 0cm 4cm 0cm 4cm;
+}
+.showbox 
+{
+	-webkit-transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+}
+.showbox.slideright:hover 
+{
+	-webkit-transform: translate(60%,0);
+	-moz-transform: translate(60%,0);
+	-o-transform: translate(60%,0);
+	-ms-transform: translate(60%,0);
+	transform: translate(60%,0);
+}
