@@ -1,0 +1,43 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: #ccc;
+}
+h1
+{
+	text-align: center;
+	font-weight: bold;
+}
+a:link, a:visited
+{
+	background-color: tan;
+	color: blue;
+	padding: 2px 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a:hover, a:active
+{
+	background-color: hotpink;
+	color: purple;
+	padding: 2px 4px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+h2
+{
+	margin: 0px 0px 25px 0px;
+	text-align: center;
+	border: 2px solid red;
+	border-radius: 5px;
+	background: linear-gradient(green, #5AC2C2);
+	background-color:#99ccff;
+}
+img
+{
+	box-shadow: 10px 10px 5px #888888;
+}

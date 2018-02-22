@@ -1,0 +1,11 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+h1 
+{
+	background-color:#99ccff;
+}
+body {
+  /* #ccc is shorthand HEX for a light grey */
+  background: lightblue;;
+}
