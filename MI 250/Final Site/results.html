@@ -1,0 +1,21 @@
+<html>
+<head>
+    <title>results</title>
+    <link rel="stylesheet" href="screen.css">
+</head>
+<body>
+<p>
+    <a href='/search.html'>search</a>&nbsp;<a href='/results.html'><b>results</b></a>
+</p>
+<h2>search results for {query}</h2>
+<table>{tweet}</table>
+<h4>previous searches: {past}</h4>
+<br/>
+<form method="POST" action="/home.html">
+    <input type="submit" name="logout" value="clear"/>
+    <br>
+    Search again:<input type="text" name="myname" value=""/></br>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

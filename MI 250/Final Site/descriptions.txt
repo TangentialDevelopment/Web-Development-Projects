@@ -1,0 +1,5 @@
+team members: Joe, Socrates
+Joe: everything after the search button was hit
+Socrates: everything before the search button was hit
+program function: display tweets based on a search query in a formatted table. Past queries are also stored and displayed.
+limitations: tweepy api search function adds junk characters at the end of tweets that cannot be removed. Doesn't have explicit handling of when the search query is empty other than displaying a blank table.
