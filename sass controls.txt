@@ -1,0 +1,7 @@
+sass controls
+
+auto update
+node-sass source/scss/style.scss --output=compiled/css --output-style=compressed --source-map=true --watch
+
+end compile
+node-sass source/scss/style.scss --output=compiled/css --output-style=compressed --source-map=true
