@@ -1,0 +1,98 @@
+html {
+  background: url("../image/background.jpg") no-repeat center center fixed;
+  background-color: rgb(201, 172, 244);
+  background-blend-mode: multiply;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: rgba(235, 237, 143, 0.89);
+  opacity: 0.8;
+  align-items: center;
+  margin: 100px;
+  padding: 40px;
+}
+
+.content {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 50px;
+  border: groove 5px;
+  padding: 10px;
+}
+
+.subtitle {
+  font-size: 40px;
+  border-top: solid 3px;
+  border-bottom: solid 3px;
+  padding: 4px;
+}
+
+.parent {
+  display: block;
+  list-style: none;
+}
+
+.child {
+  font-size: 20px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ol {
+  text-align: center;
+  text-decoration: line-through;
+}
+
+.listing {
+  display: flex;
+  display: inline-block;
+  font-size: 20px;
+  margin: 50px;
+}
+
+img {
+  width: 1000px;
+  max-width: 90%;
+  max-height: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0.4;
+}
