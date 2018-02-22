@@ -1,0 +1,105 @@
+/* color themes */
+$color1: #04080f;
+$color2: #507dbc;
+$color3: #a1c6ea;
+$color4: #bbd1ea;
+$color5: #dae3e5;
+
+/* image */
+$img-border-radius: 20px;
+$img-padding: 2px 4px;
+
+/* main text */
+$h3-font-family: 'Alegreya Sans SC', sans-serif;
+$h3-font-size: 3vw;
+$h3-mix-blend-mode: color-dodge;
+$h3-padding: 0;
+$h3-margin: 0;
+
+/* name card */
+$name-img-padding: 15px;
+$name-img-border-radius: 50%;
+$name-img-height: auto;
+$name-img-max-width: 45px;
+
+$name-card-margin-left: 30px;
+$name-card-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+$name-card-border-radius: 20px;
+$name-card-text-align: center;
+
+$name-content-margin-bottom: 8px;
+$name-content-padding: 0 16px;
+
+/* nav elements */
+$ul-nav-text-align: center;
+$ul-nav-border-bottom: 2px solid black;
+$ul-nav-font-family: Georgia, "Trebuchet MS", Arial, sans-serif;
+
+$ul-list-style: none;
+$ul-padding: 5px;
+$ul-margin-left: 35px;
+$ul-font-family: Arial, Georgia, "Trebuchet MS", sans-serif;
+
+/* list */
+$li-a-display: inline;
+
+$li-2-text-align: left-justify;
+$li-2-list-style: none;
+$li-2-font-size: 150%;
+$li-2-font-weight: bold;
+
+/* anchor */
+$a-padding: 2px 4px;
+$a-text-align: center;
+$a-text-decoration: none;
+$a-display: inline-block;
+$a-font-weight: bold;
+
+/* my divs */
+$div-border-radius: 20px;
+$div-background-blend-mode: multiply;
+$div-background-size: 130%;
+
+$div-background-blend-mode: screen;
+$div-a-background-attachment: fixed;
+$div-background-position: center;
+$div-background-repeat: no-repeat;
+$div-background-size: cover;
+
+/* a */
+$a-display: block;
+$a-text-decoration: none;
+
+/* header */
+$header-display: center;
+$header-justify-content: center;
+
+/* footer */
+$footer-border-radius: 60px;
+$footer-background-size: 90%;
+$footer-margin: 0 auto;
+$footer-max-width: 30%;
+$footer-background-repeat: no-repeat;
+$footer-background-attachment: fixed;
+$footer-display: center;
+$footer-justify-content: flex-end;
+$footer-text-align: center;
+$footer-font-size: auto;
+
+/* flex */
+$f-item-padding: 5px;
+$f-item-width: 100%;
+$f-item-height: auto;
+$f-item-margin-top: 10px;
+$f-item-text-align: center;
+$f-item-flex-shrink: <1>;
+$f-item-flex-grow: <1>;
+$f-item-flex-direction: column;
+
+$f-itemsub-padding: 5px;
+$f-itemsub-width: 100%;
+$f-itemsub-height: auto;
+$f-itemsub-font-size: 700%;
+$f-itemsub-margin-top: 10px;
+$f-itemsub-text-align: center;
+$f-itemsub-flex-direction: column;

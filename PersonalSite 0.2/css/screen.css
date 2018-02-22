@@ -1,0 +1,462 @@
+@import "_variables";
+
+html {
+  /* background: url("../images/cityscape.jpeg") no-repeat center center fixed; */
+  background-color: #934b8a;
+  background-blend-mode: luminosity;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  border-radius: $img-border-radius;
+  padding: $img-padding;
+}
+
+.h3a {
+  color: red;
+  font-family: $h3-font-family;
+  font-size: $h3-font-size;
+  mix-blend-mode: $h3-mix-blend-mode;
+  padding: $h3-padding;
+  margin: $h3-margin;
+}
+
+.h3b {
+  color: #e9e745;
+  font-family: $h3-font-family;
+  font-size: $h3-font-size;
+  mix-blend-mode: $h3-mix-blend-mode;
+  padding: $h3-padding;
+  margin: $h3-margin;
+}
+
+.h3c {
+  color: #f3fef1;
+  font-family: $h3-font-family;
+  font-size: $h3-font-size;
+  mix-blend-mode: $h3-mix-blend-mode;
+  padding: $h3-padding;
+  margin: $h3-margin;
+}
+
+.nameimg {
+  padding: $name-img-padding;
+  border-radius: $name-img-border-radius;
+  height: $name-img-height;
+  max-width: $name-img-max-width;
+}
+
+.namecard {
+  margin-left: $name-card-margin-left;
+  box-shadow: $name-card-box-shadow;
+  border-radius: $name-card-border-radius;
+  background-color: #f2f69f;
+  text-align: $name-card-text-align;
+}
+
+.namecontent {
+  margin-bottom: $name-content-margin-bottom;
+  padding: $name-content-padding;
+}
+
+ul.navigation {
+  text-align: $ul-nav-text-align;
+  border-bottom: $ul-nav-border-bottom;
+  font-family: $ul-nav-font-family;
+  background-color: #dada5f;
+}
+
+ul.a {
+  list-style: $ul-list-style;
+  border-left: 6px solid red;
+  padding: $ul-padding;
+  margin-left: $ul-margin-left;
+  font-family: $ul-font-family;
+}
+
+ul.b {
+  list-style: $ul-list-style;
+  border-left: 6px solid green;
+  padding: $ul-padding;
+  margin-left: $ul-margin-left;
+  font-family: $ul-font-family;
+}
+
+ul.c {
+  list-style: $ul-list-style;
+  border-left: 6px solid yellow;
+  padding: $ul-padding;
+  margin-left: $ul-margin-left;
+  font-family: $ul-font-family;
+}
+
+ul.d {
+  list-style: $ul-list-style;
+  border-left: 6px solid blue;
+  padding: $ul-padding;
+  margin-left: $ul-margin-left;
+  font-family: $ul-font-family;
+}
+
+li.a {
+  display: $li-a-display;
+}
+
+li.second {
+  text-align: $li-2-text-align;
+  list-style: $li-2-list-style;
+  font-size: $li-2-font-size;
+  font-weight: $li-2-font-weight;
+}
+
+a:link {
+  color: blue;
+  padding: $a-padding;
+  text-align: $a-text-align;
+  text-decoration: $a-text-decoration;
+  display: $a-display;
+  font-weight: $a-font-weight;
+}
+
+a:visited {
+  color: purple;
+  padding: $a-padding;
+  text-align: $a-text-align;
+  text-decoration: $a-text-decoration;
+  display: $a-display;
+  font-weight: $a-font-weight;
+}
+
+a:hover,
+a:active {
+  background-color: #add8e6;
+  padding: $a-padding;
+  text-align: $a-text-align;
+  text-decoration: $a-text-decoration;
+  display: $a-display;
+  font-weight: $a-font-weight;
+}
+
+a.current:link,
+a.current:visited {
+  color: white;
+  background-color: blue;
+}
+
+.my-div1 {
+  background: url("../images/office.jpg") no-repeat center center;
+  background-color: #91cc97;
+  border-radius: $div-border-radius;
+  background-blend-mode: $div-background-blend-mode;
+  background-size: $div-background-size;
+}
+
+.my-div2 {
+  background: url("../images/laptop.jpg") no-repeat center center;
+  background-color: #525fca;
+  border-radius: $div-border-radius;
+  background-blend-mode: $div-background-blend-mode;
+  background-size: $div-background-size;
+}
+
+.my-div3 {
+  background: url("../images/social media.jpeg") no-repeat center center;
+  border-radius: $div-border-radius;
+  background-size: $div-background-size;
+}
+
+.my-div4 {
+  background: url("../images/work.jpg") no-repeat center center;
+  background-color: #bddb85;
+  border-radius: $div-border-radius;
+  background-blend-mode: $div-background-blend-mode;
+  background-attachment: $div-a-background-attachment;
+  background-position: $div-background-position;
+  background-repeat: $div-background-repeat;
+  background-size: $div-background-size;
+}
+
+.my-div5 {
+  background: url("../images/projects.jpg") no-repeat center center;
+  background-color: #bddb85;
+  border-radius: $div-border-radius;
+  background-blend-mode: $div-background-blend-mode;
+  background-attachment: $div-a-background-attachment;
+  background-position: $div-background-position;
+  background-repeat: $div-background-repeat;
+  background-size: $div-background-size;
+}
+
+.my-div6 {
+  background: url("../images/media.jpeg") no-repeat center center;
+  background-color: #bddb85;
+  border-radius: $div-border-radius;
+  background-blend-mode: $div-background-blend-mode;
+  background-attachment: $div-a-background-attachment;
+  background-position: $div-background-position;
+  background-repeat: $div-background-repeat;
+  background-size: $div-background-size;
+}
+
+a.fill-div {
+  color: black;
+  display: $a-display;
+  text-decoration: $a-text-decoration;
+}
+
+@import "compass/css3";
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  display: $header-display;
+  justify-content: $header-justify-content;
+}
+
+.footer {
+  background-image: url("../images/footer.jpeg");
+  border-radius: $footer-border-radius;
+  background-size: $footer-background-size;
+  margin: $footer-margin;
+  max-width: $footer-max-width;
+  background-repeat: $footer-background-repeat;
+  background-attachment: $footer-background-attachment;
+  display: $footer-display;
+  justify-content: $footer-justify-content;
+  text-align: $footer-text-align;
+  color: black;
+  font-size: $footer-font-size;
+}
+
+.flex-container { /* BROKEN LEARN LATER */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li.flex-item {
+  padding: $f-item-padding;
+  width: $f-item-width;
+  height: $f-item-height;
+  margin-top: $f-item-margin-top;
+  text-align: $f-item-text-align;
+  flex-shrink: <1>;
+  flex-grow: <1>;
+  flex-direction: $f-item-flex-direction;
+}
+
+.flex-itemsub {
+  padding: $f-itemsub-padding;
+  width: $f-itemsub-width;
+  height: $f-itemsub-height;
+  font-size: $f-itemsub-font-size;
+  margin-top: $f-itemsub-margin-top;
+  text-align: $f-itemsub-text-align;
+  flex-shrink: <1>;
+  flex-grow: <1>;
+  flex-direction: $f-itemsub-flex-direction;
+}
+
+/*
+@media (max-width: 320px) {
+  img {
+    border-radius: 20px;
+    padding: 2px 4px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nameimg {
+    padding: 3px;
+  }
+
+  .namecard {
+    margin: auto;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: block;
+    width: auto;
+    float: center;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: red;
+    max-width: auto;
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  img {
+    border-radius: 20px;
+    padding: 2px 4px;
+    width: 200%;
+    height: auto;
+  }
+
+  .nameimg {
+    padding: 3px;
+  }
+
+  .namecard {
+    margin: auto;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: block;
+    width: auto;
+    float: center;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: yellow;
+    max-width: auto;
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 1000px) {
+  img {
+    border-radius: 20px;
+    padding: 2px 4px;
+    width: 100%;
+    height: auto;
+  }
+
+  .nameimg {
+    padding: 3px;
+  }
+
+  .namecard {
+    margin: auto;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: block;
+    width: auto;
+    float: center;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: white;
+    max-width: auto;
+    font-size: 50%;
+  }
+}
+
+/* js stuff end comment here
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup end comment here
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow end comment here
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup end comment here
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) end comment here
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+table,
+th,
+td {
+  margin: 0 auto;
+  border: 1px solid black;
+}
+*/

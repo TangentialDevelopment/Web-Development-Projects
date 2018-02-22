@@ -1,0 +1,480 @@
+@import "_variables";
+
+html {
+  background: url("../../images/cityscape.jpeg") no-repeat center center fixed;
+  background-color: $purple;
+  background-blend-mode: $lighten-base;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+img {
+  border-radius: $radius-image;
+  padding: $padding-image;
+}
+
+.text1 {
+  color: white;
+  text-shadow: $textshadow-text;
+  font-family: $fontfamily-text;
+  font-size: $fontsize-text;
+  mix-blend-mode: $mixblend-text;
+  padding: $padding-text;
+  margin: $margin-text;
+}
+
+.text2 {
+  color: white;
+  text-shadow: $textshadow-text;
+  font-family: $fontfamily-text;
+  font-size: $fontsize-text;
+  mix-blend-mode: $mixblend-text;
+  padding: $padding-text;
+  margin: $margin-text;
+}
+
+.text3 {
+  color: white;
+  text-shadow: $textshadow-text;
+  font-family: $fontfamily-text;
+  font-size: $fontsize-text;
+  mix-blend-mode: $mixblend-text;
+  padding: $padding-text;
+  margin: $margin-text;
+}
+
+.nameimg {
+  padding: $padding-nameimg;
+  border-radius: $radius-nameimg;
+  height: $height-nameimg;
+  max-width: $maxwidth-nameimg;
+}
+
+.namecard {
+  background-color: $yellow;
+  margin-left: $marginleft-namecard;
+  box-shadow: $boxshadow-namecard;
+  border-radius: $radius-namecard;
+  text-align: $textalign-namecard;
+  max-width: $maxwidth-namecard;
+}
+
+.namecontent {
+  margin-bottom: $marginbottom-namecontent;
+  padding: $padding-namecontent;
+}
+
+.ul.navigation {
+  text-align: $alignmentul-nav;
+  border-bottom: $borderbotul-nav;
+  font-family: $font-nav;
+  background-color: $lightyellow;
+}
+
+.ul.a {
+  list-style: $list-style;
+  border-left: $borderleft-ula;
+  padding: $padding-ul;
+  margin-left: $marginleft-ul;
+  font-family: $font-nav;
+}
+
+.ul.b {
+  list-style: $list-style;
+  border-left: $borderleft-ulb;
+  padding: $padding-ul;
+  margin-left: $marginleft-ul;
+  font-family: $font-nav;
+}
+
+.ul.c {
+  list-style: $list-style;
+  border-left: $borderleft-ulc;
+  padding: $padding-ul;
+  margin-left: $marginleft-ul;
+  font-family: $font-nav;
+}
+
+.ul.d {
+  list-style: $list-style;
+  border-left: $borderleft-uld;
+  padding: $padding-ul;
+  margin-left: $marginleft-ul;
+  font-family: $font-nav;
+}
+
+li.a {
+  display: $display-lia;
+}
+
+li.second {
+  text-align: $textalign-lisecond;
+  list-style: $liststyle-lisecond;
+  font-size: $fontsize-lisecond;
+  font-weight: $fontweight-lisecond;
+}
+
+a:link {
+  color: $blue;
+  padding: $padding-a;
+  text-align: $textalign-a;
+  text-decoration: $textdecoration-a;
+  display: $display-a;
+  font-weight: $fontweight-alink;
+}
+
+a:visited {
+  color: $purple;
+  padding: $padding-a;
+  text-align: $textalign-a;
+  text-decoration: $textdecoration-a;
+  display: $display-a;
+  font-weight: $fontweight-avisitied;
+}
+
+a:hover,
+a:active {
+  background-color: $blue;
+  padding: $padding-a;
+  text-align: $textalign-a;
+  text-decoration: $textdecoration-a;
+  display: $display-a;
+  border-radius: $borderradius-aha;
+}
+
+a.current:link,
+a.current:visited {
+  color: white;
+  background-color: $blue;
+}
+
+.my-div1 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/office.jpg") no-repeat center center;
+  background-color: $pink;
+  background-blend-mode: $blendmode-mydiv;
+  background-size: $backgroundsize-mydiv1;
+}
+
+.my-div2 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/laptop.jpg") no-repeat center center;
+  background-color: $blue;
+  background-blend-mode: $blendmode-mydiv;
+  background-size: $backgroundsize-mydiv2;
+}
+
+.my-div3 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/social media.jpeg") no-repeat center center;
+  background-color: $darkblue;
+  background-blend-mode: $blendmode-mydiv;
+  background-size: $backgroundsize-mydiv2;
+}
+
+.my-div4 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/work.jpg") no-repeat center center;
+  background-color: $whitishgreen;
+  background-blend-mode: $blendmode-mydiv4;
+  background-attachment: $bgattach-mydiv;
+  background-position: $bgpos-mydiv;
+  background-repeat: $bgrepeat-mydiv;
+  background-size: $bgsize-mydiv;
+}
+
+.my-div5 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/projects.jpg") no-repeat center center;
+  background-color: $purple;
+  background-blend-mode: $blendmode-mydiv5;
+  background-attachment: $bgattach-mydiv;
+  background-position: $bgpos-mydiv;
+  background-repeat: $bgrepeat-mydiv;
+  background-size: $bgsize-mydiv;
+}
+
+.my-div6 {
+  border-radius: $borderradius-mydiv;
+  background: url("../../images/media.jpeg") no-repeat center center;
+  background-color: $purple;
+  background-blend-mode: $blendmode-mydiv5;
+  background-attachment: $bgattach-mydiv;
+  background-position: $bgpos-mydiv;
+  background-repeat: $bgrepeat-mydiv;
+  background-size: $bgsize-mydiv;
+}
+
+a.fill-div {
+  display: block;
+  text-decoration: $textdecoration-a;
+  color: black;
+}
+
+//@import "compass/css3";
+
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: $display-wrapper;
+  -webkit-flex-flow: $flexflow-wrapper;
+  flex-flow: $flexflow-wrapper;
+  font-weight: $fontweight-wrapper;
+  text-align: $textalign-wrapper;
+}
+
+.wrapper > * {
+  padding: $padding-wrapper;
+  flex: $flex-wrapper;
+}
+
+.header {
+  display: $display-header;
+  justify-content: $justifycontent-header;
+}
+
+.footer {
+  background-image: url("../../images/footer.jpeg");
+  border-radius: $borderradius-footer;
+  background-size: $backgroundsize-footer;
+  margin: $margin-footer;
+  max-width: $maxwidth-footer;
+  background-repeat: $backgroundrepeat-footer;
+  background-attachment: $backgroundattach-footer;
+  display: $display-footer;
+  justify-content: $justifycontent-footer;
+  color: black;
+  font-size: $fontsize-footer;
+}
+
+.flex-container {
+  padding: $padding-fcontain;
+  margin: $margin-fcontain;
+  list-style: $liststyle-fcontain;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: $liststyle-fcontain;
+  -webkit-flex-flow: row wrap;
+  justify-content: $justifycontent-fcontain;
+  align-items: $alignitem-fcontain;
+}
+
+.flex-item {
+  padding: $padding-fitem;
+  width: $width-fitem;
+  height: $height-fitem;
+  margin-top: $margintop-fitem;
+  text-align: $textalign-fitem;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-direction: $fdirection-fitem;
+}
+
+.flex-itemsub {
+  padding: $padding-fitemsub;
+  width: $width-fitemsub;
+  height: $height-fitemsub;
+  font-size: $fontsize-fitemsub;
+  margin-top: $margintop-fitemsub;
+  text-align: $textalign-fitemsub;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-direction: $fdirection;
+}
+
+/* js stuff */
+
+.popup {
+  position: $position-popup;
+  display: $display-popup;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  visibility: hidden;
+  width: $width-popuptext;
+  background-color: #555;
+  color: #fff;
+  text-align: $textalign-popuptext;
+  border-radius: $borderradius-popuptext;
+  padding: $padding-popuptext;
+  position: $position-popuptext;
+  z-index: $zindex-popuptext;
+  bottom: $bottom-popuptext;
+  left: $left-popuptext;
+  margin-left: $marginleft-popuptext;
+}
+
+.popup .popuptext::after {
+  content: "";
+  position: $position-popuptexta;
+  top: $top-popuptexta;
+  left: $left-popuptexta;
+  margin-left: $marginleft-popuptexta;
+  border-width: $borderwidth-popuptexta;
+  border-style: $borderstyle-popuptexta;
+  border-color: $bordercolor-popuptexta;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+
+  to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+table,
+th,
+td {
+  margin: $margin-table;
+  border: $border-table;
+}
+
+/* sceen sizing */
+@media (max-width: 1200px) and (min-width: 1024px) {
+  img {
+    border-radius: $radius-image;
+    padding: $padding-image;
+    width: $width-img * 0.7;
+    height: $height-img;
+  }
+
+  .nameimg {
+    padding: $padding-nameimg / 5;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: block;
+    width: auto;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: white;
+    max-width: auto;
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  img {
+    border-radius: $radius-image;
+    padding: $padding-image;
+    width: $width-img * 0.5;
+    height: $height-img;
+  }
+
+  .nameimg {
+    padding: $padding-nameimg / 5;
+  }
+
+  .namecard {
+    margin-left: 0;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: flex;
+    width: auto;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: yellow;
+    max-width: auto;
+    font-size: 30%;
+  }
+}
+
+@media (max-width: 767px) {
+  h4 {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+
+  img {
+    border-radius: $radius-image;
+    padding: 0;
+    width: $width-img;
+    height: $height-img;
+  }
+
+  .nameimg {
+    padding: $padding-nameimg / 5;
+    max-width: $maxwidth-nameimg / 2;
+    margin: 0;
+  }
+
+  .namecard {
+    margin-left: 0;
+    max-height: 80px;
+    max-width: 100%;
+  }
+
+  .flex-container,
+  .flex-item,
+  .flex-itemsub {
+    display: block;
+    width: auto;
+  }
+
+  .text1 {
+    font-size: $fontsize-text * 3;
+  }
+
+  .text2 {
+    font-size: $fontsize-text * 3;
+  }
+
+  .text3 {
+    font-size: $fontsize-text * 3;
+  }
+
+  .col {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .footer {
+    background-color: gray;
+    color: red;
+    max-width: auto;
+    font-size: 30%;
+  }
+}
