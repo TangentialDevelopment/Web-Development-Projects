@@ -1,0 +1,97 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>flexbox4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- External link (relative) to your main stylesheet -->
+        <link rel="stylesheet" href="screen.css">
+
+        <!-- External link (relative) to your javascript file -->
+        <script src="js/index.js"></script>
+		<style>
+			@import "compass/css3";
+
+			.wrapper 
+			{
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;  
+			  
+				-webkit-flex-flow: row wrap;
+				flex-flow: row wrap;
+			  
+				font-weight: bold;
+				text-align: center;
+			}
+
+			.wrapper > * 
+			{
+				padding: 10px;
+				flex: 1 100%;
+			}
+
+			.header 
+			{
+				display: center;
+				justify-content: center;
+			}
+
+			.footer 
+			{
+				display: center;
+				justify-content: flex-end;
+			}
+
+			.flex-container 
+			{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+			  
+				display: -webkit-box;
+				display: -moz-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+			  
+				-webkit-flex-flow: row wrap;
+				justify-content: center;
+			}
+
+			.flex-item 
+			{
+				padding: 5px;
+				width: 200px;
+				margin-top: 10px;
+				text-align: center;
+				flex-shrink: <1>;
+				flex-grow: <1>;
+				flex-direction: row;
+			}
+
+			body 
+			{
+				padding: 2em; 
+			}
+		</style>
+    </head>
+    <body class="wrapper">
+	<header class="header">
+	  <h1>This is an example header</h1>
+	</header>
+	<ul class="flex-container">
+		<li class="flex-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li class="flex-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+		<li class="flex-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+	</ul>
+	<footer class="footer">
+	  <p>This is an example footer</p>
+	</footer>
+    </body>
+</html>
