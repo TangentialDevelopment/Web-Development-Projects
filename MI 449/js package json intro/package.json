@@ -1,0 +1,28 @@
+{
+  "name": "jsonPackagingProject",
+  "version": "1.0.1",
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "scripts": {
+    "dev:server": "live-server",
+    "dev:sass": "node-sass source/scss/style.scss --watch --output=compiled/css --output-style=compressed --source-map=true",
+    "dev": "run-p dev:*",
+    "lint:html": "htmlhint",
+    "lint:scss": "stylelint source/scss/*.scss",
+    "lint:js": "standard",
+    "build:sass": "node-sass source/scss/style.scss --output=compiled/css --output-style=compressed --source-map=true",
+    "deploy:github": "git push origin master",
+    "deploy:surge": "surge --project . --domain https://tangjos1-kg-tgc7noax99ajvzzg.surge.sh/",
+    "deploy": "run-s lint:* build:* deploy:surge"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.9.13",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2",
+    "standard": "^10.0.2",
+    "stylelint-config-standard": "^16.0.0",
+    "surge": "^0.19.0"
+  }
+}

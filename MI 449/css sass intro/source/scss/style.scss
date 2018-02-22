@@ -1,0 +1,85 @@
+@import "_variables";
+
+html {
+  font-family: $serif-fonts;
+}
+
+h1 {
+  color: $color1;
+  font-size: $font-base-size * 3;
+}
+
+h2 {
+  color: $color2;
+  font-size: $font-base-size * 2;
+}
+
+h3 {
+  color: $color3;
+  font-size: $font-base-size * 1.5;
+}
+
+h4 {
+  color: $color4;
+  font-size: $font-base-size;
+}
+
+h5 {
+  color: $color1;
+  font-size: $font-base-size * 0.8;
+}
+
+h6 {
+  color: $color2;
+  font-size: $font-base-size * 0.5;
+}
+
+a {
+  color: $color3;
+  font-size: $font-base-size;
+}
+
+p {
+  font-size: $font-base-size * 0.75;
+}
+
+input,
+textarea {
+  font-size: $font-base-size;
+  border-radius: $border-radius;
+  border-style: $border-style;
+  font-family: $serif-fonts;
+
+  &[type="text"],
+  &[type="password"],
+  &[type="checkbox"],
+  &[type="radio"] {
+    font-family: $serif-fonts;
+    font-size: $font-base-size;
+    border-radius: $border-radius;
+  }
+}
+
+label {
+  font-size: $font-base-size;
+}
+
+figcaption {
+  font-size: $font-base-size * 0.6;
+}
+
+table {
+  font-family: $serif-fonts;
+}
+
+th {
+  font-size: $font-base-size * 0.9;
+}
+
+td {
+  font-size: $font-base-size * 0.6;
+}
+
+img {
+  border-radius: $border-radius;
+}
